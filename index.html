@@ -5,14 +5,14 @@
     <title>Sedona</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/normilize.css" rel="stylesheet">
-    <link href="css/style.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="img/mountain.png"/>
   </head>
   <body>
     <header class="page-header">
       <nav class="main-menu">
         <div class="logo">
-          <img src="img/logo.png" width="100%" height="auto" alt="Логотип сайта">
+          <img src="img/logo.png" alt="Логотип сайта">
         </div>
         <ul class="main-nav">
           <li class="active"><a href="#">Информация</a></li>
@@ -26,7 +26,14 @@
       <h1 class="visually-hidden">Sedona city</h1>
       <section class="promo">
         <div class="promo-block">
-          <img class="promo-block-img" src="img/promo-sedona.jpg" width="1200" height="563" alt="Sedona">
+          <div class="promo-block-visually">
+            <p class="promo-block-title">Welcome</p>
+            <p class="promo-block-text">&#8211;To the gorgeous &#8211;</p>
+            <h2 class="promo-block-title sedona">Sedona</h2>
+            <p class="promo-block-text second">	&#8220;Because the Grand Canyon sucks!&#8222;</p>
+            <img src="img/v-adp.svg" >
+            <!--<img class="promo-block-img" src="img/promo-adp.jpg" width="1200" height="563" alt="Sedona">-->
+          </div>
           <h2 class="promo-title">Седона &#8211; небольшой городок в Аризоне,<br>заслуживающий большего!</h2>
           <p class="promo-text">Рассмотрим 5 причин, по которым Седона круче, чем Гранд каньон!</p>
         </div>
@@ -38,23 +45,23 @@
           <p class="reason-text">Седона &#8211; не атракцион для туристов,<br> там течет своя жизнь</p>
         </div>
         <div class="reason-picture">
-          <img src="img/reason-sedona.jpg" width="800" height="256" alt="Sedona">
+          <img src="img/reason-sedona-adp.jpg" alt="Sedona">
         </div>
       </section>
       <section class="features">
         <ul class="offers">
           <li class="offers-item">
-            <img class="offers-house-img" src="img/icon-1.svg" width="75" height="72" alt="пинтограмма дома">
+            <img class="offers-house-img" src="img/icon-1.svg" alt="пинтограмма дома">
             <h3 class="offers-title">Жилье</h3>
             <p class="offers-text">Рекомендуем пожить в настоящем<br> мотеле, все как в кино!</p>
           </li>
           <li class="offers-item">
-            <img class="offers-food-img" src="img/icon-3.svg" width="74" height="70" alt="пинтограмма еды">
+            <img class="offers-food-img" src="img/icon-3.svg" alt="пинтограмма еды">
             <h3 class="offers-title">Еда</h3>
             <p class="offers-text">Всегда заказывайте фирменный бургер,<br> вы не разочаруетесь!</p>
           </li>
           <li class="offers-item">
-            <img class="offers-box-img" src="img/icon-2.svg" width="64" height="76" alt="пинтограмма подарка">
+            <img class="offers-box-img" src="img/icon-2.svg" alt="пинтограмма подарка">
             <h3 class="offers-title correct">Сувениры</h3>
             <p class="offers-text">Не только китайского, но и местного<br> производства!</p>
           </li>
@@ -67,7 +74,7 @@
           <p class="reason-text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
         </div>
         <div class="reason-picture secondary-img">
-          <img src="img/reason-canyon.jpg" width="800" height="256" alt="Вид на каньон">
+          <img src="img/reason-canyon-adp.jpg" alt="Вид на каньон">
         </div>
       </section>
       <section class="reason reason-secondary">
@@ -158,7 +165,9 @@
         </section>
   		</section>
       <div class="map-nav">
-      	<img src="img/map.jpg" width="1200" height="475" alt="Карта как добраться" >
+      	<!--<img src="img/map.jpg" alt="Карта как добраться" >-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9408.238845170823!2d30.305982550000003!3d53.87736640000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sby!4v1510433344483" width="100%" height="475px" frameborder="0" style="border:0" allowfullscreen>
+        </iframe>
       </div>
   	</main>
     <footer class="main-footer catalog">

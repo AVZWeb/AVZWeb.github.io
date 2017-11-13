@@ -1,19 +1,13 @@
-/*html {
-	padding: 0 40px;
-}
-*/
-
 body {
 	font-family: "PT Sans", "Arial", sans-serif;
 	font-weight: normal;
 	text-transform: uppercase;
 	margin: 0;
-	padding: 0;
-	margin: auto;
+	margin: 0 3%;
 	min-width: 768px;
 	max-width: 1200px;
-	font-size: 14px;
-	line-height: 21px;
+	font-size: 0.9em;
+	line-height: 1.3em;
 	color: #333333;
 	background-color: #f2f2f2;
 	-webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
@@ -66,7 +60,7 @@ img {
 
 .main-nav a {
 	font-weight: bold;
-	line-height: 26px;
+	line-height: 1.63em;
 	color: #333333;
 }
 
@@ -85,19 +79,19 @@ img {
 
 .promo-title {
 	font-weight: bold;
-	font-size: 21px;
-	line-height: 26px;
+	font-size: 1.3em;
+	line-height: 1.63em;
 }
 
 .promo-text {
-	line-height: 26px;
+	line-height: 1.63em;
 	color: #808080;
 }
 
 .reason-title {
 	margin-bottom: 25px;
 	font-weight: bold;
-	font-size: 21px;
+	font-size: 1.3em;
 	color: #ffffff;
 }
 
@@ -111,7 +105,7 @@ img {
 
 .reason-text {
 	padding-top: 5px;
-	line-height: 26px;
+	line-height: 1.6em;
 	color: #ffffff;
 }
 
@@ -134,7 +128,7 @@ img {
 .offers-title {
 	padding-top: 7px;
 	font-weight: bold;
-	font-size: 21px;
+	font-size: 1.3em;
 }
 
 .offers-text {
@@ -144,12 +138,12 @@ img {
 .appointment-title {
 	margin-top: -1px;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 1.9em;
 }
 
 .appointment-text {
 	margin-bottom: 44px;
-	line-height: 26px;
+	line-height: 1.63em;
 	color: #808080;
 }
 
@@ -167,15 +161,15 @@ img {
 
 .field-appointment-text {
 	font-weight: bold;
-	line-height: 26px;
+	line-height: 1.63em;
 	color: inherit;
 }
 
 .field-appointment-button {
 	font-weight: bold;
 	text-transform: inherit;
-	font-size: 21px;
-	line-height: 26px;
+	font-size: 1.3em;
+	line-height: 1.63em;
 	color: #ffffff;
 	background-color: #81b3d2;
 }
@@ -207,8 +201,8 @@ img {
 
 .hashtag a {
 	font-weight: bold;
-	font-size: 21px;
-	line-height: 26px;
+	font-size: 1.3em;
+	line-height: 1.63em;
 	color:inherit;
 }
 
@@ -273,7 +267,7 @@ img {
 }
 
 .footer-copyright {
-	line-height: 26px;
+	line-height: 1.63em;
 }
 
 .htmlacademy-logo {
@@ -300,7 +294,7 @@ img {
 .field-group-title {
 	margin-bottom: 1px;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 1em;
 	color: #ffffff;
 }
 
@@ -311,19 +305,19 @@ img {
 .results-sum {
 	padding-left: 12px;
 	font-weight: bold;
-	font-size: 21px;
-	line-height: 26px;
+	font-size: 1.3em;
+	line-height: 1.63em;
 }
 
 .results-sorting {
-	font-size: 12px;
-	line-height: 18px;
+	font-size: 0.75em;
+	line-height: 1.13em;
 	color: #b1b1b1;
 }
 
 .results-title {
-	font-size: 12px;
-	line-height: 18px;
+	font-size: 0.75em;
+	line-height: 1.13em;
 	margin-left: 2px;
 	padding-top: 2px;
 }
@@ -352,8 +346,8 @@ img {
 .hotel-title {
 	margin-top: -6px;
 	font-weight: bold;
-	font-size: 21px;
-	line-height: 26px;
+	font-size: 1.3em;
+	line-height: 1.63em;
 }
 
 .hotel-rating {
@@ -492,7 +486,9 @@ img {
 
 .main-menu {
 	position: relative;
-	width: 1200px;
+	/*padding:0 6%;
+	/*
+	width: 1200px;*/
 }
 
 .logo {
@@ -517,7 +513,7 @@ img {
 	    -ms-flex-align: center;
 	        align-items: center;
 	text-align: center;
-	width: 1200px;
+	/*width: 1200px;*/
 	background-color: #ffffff;
 }
 
@@ -537,11 +533,11 @@ img {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	width: 1200px;
+	/*width: 1200px;*/
 }
 
 .reason-about {
-	width: 400px;
+	width: 33%;
 	padding-top: 25px;
 	padding-right: 45px;
 	padding-left: 45px;
@@ -557,7 +553,7 @@ img {
 	margin: 0;
 	padding: 0;
 	margin-bottom: -20px;
-	width: 1200px;
+	/*width: 1200px;*/
 	background-color: #ffffff;
 }
 
@@ -611,7 +607,7 @@ img {
 	    -ms-flex-direction: column;
 	        flex-direction: column;
 	text-align: center;
-	width: 264px;
+	width: 33%;
 	padding-top: 25px;
 	padding-bottom: 40px;
 	color: inherit;
@@ -626,20 +622,20 @@ img {
 	position: relative;
 	text-align: center;
 	padding-top: 58px;
-	width: 1200px;
+	/*width: 1200px;*/
 	background-color: #ffffff;
 }
 
 /* Всплывающая форма*/
 
 .appointment-button {
-	width: 570px;
+	width: 48%;
 	padding: 31px 0px;
 	border: 0;
 	font-weight: bold;
 	letter-spacing: 0.6px;
-	font-size: 21px;
-	line-height: 26px;
+	font-size: 1.3em;
+	line-height: 1.63em;
 	background-color: #766357;
 	color: #ffffff;
 	font-family: inherit;
@@ -683,10 +679,10 @@ input::-webkit-inner-spin-button {
 	    flex-wrap: wrap;
 	position: absolute;
 	left: 50%;
-	margin-left: -285px;
+	margin-left: -24%;
 	text-align: left;
 	font-weight: 700;
-	width: 570px;
+	width: 48%;
 	padding-top: 54px;
 	background-color: white;
 	-webkit-box-shadow: 0 7px 15px rgba(0,1,1,0.15);
@@ -708,7 +704,7 @@ input::-webkit-inner-spin-button {
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
-	width: 460px;
+	width: 81%;
 	margin-bottom: 30px;
 }
 
@@ -719,7 +715,7 @@ input::-webkit-inner-spin-button {
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
-	width: 320px;
+	width: 56%;
 	text-align: center;
 }
 
@@ -733,8 +729,8 @@ input::-webkit-inner-spin-button {
 
 .field-appointment-item input {
 	display: inline-block;
-	width: 38px;
-	height: 38px;
+	width: 7%;
+	height: 7%;
 	padding-left: 13px;
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
@@ -754,17 +750,17 @@ input::-webkit-inner-spin-button {
 
 .plus,
 .minus {
-	font-size: 21px;
+	font-size: 1.3em;
 	font-weight: bold;
 }
 
 .field-appointment-input {
 	color: #333333;
-	font-size: 14px;
+	font-size: 0.9em;
 	text-transform: uppercase;
 	font-family: inherit;
 	font-weight: bold;
-	line-height: 26px;
+	line-height: 1.63em;
 }
 
 .field-appointment-item input:hover {
@@ -780,8 +776,8 @@ input::-webkit-inner-spin-button {
 	background-color: #f2f2f2;
 	color: #a9a9a9;
 	border: none;
-	height: 38px;
-	width: 38px;
+	height: 7%;
+	width: 7%;
 }
 
 .field-appointment-item svg {
@@ -815,14 +811,14 @@ input::-webkit-inner-spin-button {
 }
 
 .field-appointment-btn {
-	padding-left: 195px;
-	padding-right: 195px;
+	padding-left: 34%;
+	padding-right: 34%;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	margin-top: 24px;
 	margin-bottom: 56px;
 	text-transform: uppercase;
-	font-size: 21px;
+	font-size: 1.3em;
 	font-family: inherit;
 	color: white;
 	background-color: #81b3d2;
@@ -851,7 +847,7 @@ input::-webkit-inner-spin-button {
 	position: relative;
 	padding: 20px 0px;
 	margin-top: -116px;
-	width: 1200px;
+	/*width: 1200px;*/
 	background: rgba(255, 255, 255, 0.9);
 }
 
@@ -866,7 +862,7 @@ input::-webkit-inner-spin-button {
 	        align-items: center;
 	margin-top: 0px;
 	padding: 20px 0px;
-	width: 1200px;
+	/*width: 1200px;*/
 	background-color: #ffffff;
 }
 .footer-copyright {
@@ -877,8 +873,8 @@ input::-webkit-inner-spin-button {
 	    -ms-flex-align: center;
 	        align-items: center;
 	padding-top: 4px;
-	padding-left: 32px;
-	width: 196px;
+	padding-left: 3%;
+	width: 16%;
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
@@ -1097,7 +1093,7 @@ input::-webkit-inner-spin-button {
 
 .price-in-day-text {
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 1em;
 	color: #ffffff;
 	margin-bottom: 9px;
 }
@@ -1126,8 +1122,8 @@ input::-webkit-inner-spin-button {
 
 .price-controls label {
 	display: inline-block;
-	font-size: 14px;
-	line-height: 38px;
+	font-size: 0.9em;
+	line-height: 2.4em;
 	vertical-align: top;
 	cursor: pointer;
 }
@@ -1212,4 +1208,44 @@ input::-webkit-inner-spin-button {
 .field-group-button:focus {
 	background-color: #ffffff;
 	color: #333333;
+}
+
+/*Резиновая Верска*/
+
+.promo-block-visually {
+	background: url("../img/promo-adp.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+.promo-block-title {
+	margin-bottom: 0px;
+	padding-top: 30px;
+	font-weight: bold;
+	font-size: 2.75em;
+	color: #81b3d2;
+}
+
+.promo-block-title.sedona {
+	padding-top: 15px;
+	padding-bottom: 63px;
+	font-size: 4.6em;
+	color: #ffffff;
+}
+
+.promo-block-text {
+	text-transform:lowercase;
+	font-size: 1em;
+	color: #766357;
+}
+
+.promo-block-text.second {
+	padding-bottom: 34px;
+	text-transform: initial;
+	color: #ffffff;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
 }
