@@ -215,12 +215,6 @@ img {
 	color: #c7c7c7;
 }
 
-
-.hashtag {
-	margin-top: 9px;
-	margin-left: 34px;
-}
-
 .social-link {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -236,10 +230,6 @@ img {
 	background-color: #81b3d2;
 }
 
-.footer-social {
-	padding-left: 20px;
-}
-
 .footer-social ul {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -249,7 +239,8 @@ img {
 	        justify-content: space-between;
 	-ms-flex-wrap: wrap;
 	    flex-wrap: wrap;
-	width: 150px;
+	width: 110%;
+  padding-left: 0px;
 }
 
 .social-icon {
@@ -286,7 +277,7 @@ img {
 /* Стили страницы Седона-каталог */
 
 .main-form  {
-	width: 1200px;
+	/*width: 1200px;*/
  	margin-bottom: -24px;
 	background: #81b3d2 url("../img/background-foto.jpg") no-repeat;
 }
@@ -303,7 +294,7 @@ img {
 }
 
 .results-sum {
-	padding-left: 12px;
+	margin-left: -7px;
 	font-weight: bold;
 	font-size: 1.3em;
 	line-height: 1.63em;
@@ -313,6 +304,10 @@ img {
 	font-size: 0.75em;
 	line-height: 1.13em;
 	color: #b1b1b1;
+}
+
+.results-sorting li:not(last-child) {
+	padding-right: 30px;
 }
 
 .results-title {
@@ -400,6 +395,7 @@ img {
 
 .footer-copyright-by {
 	position: relative;
+	padding-right: 10px;
 	top: -5px;
 }
 
@@ -729,8 +725,7 @@ input::-webkit-inner-spin-button {
 
 .field-appointment-item input {
 	display: inline-block;
-	width: 7%;
-	height: 7%;
+	width: 16%;;
 	padding-left: 13px;
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
@@ -751,7 +746,7 @@ input::-webkit-inner-spin-button {
 .plus,
 .minus {
 	font-size: 1.3em;
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 
 .field-appointment-input {
@@ -776,8 +771,7 @@ input::-webkit-inner-spin-button {
 	background-color: #f2f2f2;
 	color: #a9a9a9;
 	border: none;
-	height: 7%;
-	width: 7%;
+	width: 14%;
 }
 
 .field-appointment-item svg {
@@ -865,6 +859,7 @@ input::-webkit-inner-spin-button {
 	/*width: 1200px;*/
 	background-color: #ffffff;
 }
+
 .footer-copyright {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -872,17 +867,15 @@ input::-webkit-inner-spin-button {
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
-	padding-top: 4px;
-	padding-left: 3%;
-	width: 16%;
+	/*width: 16%;*/
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
 }
 
 .map-nav {
-	padding:0;
-	margin:0;
+	padding: 0;
+	margin: 0;
  	margin-top: -2px;
 }
 
@@ -893,7 +886,7 @@ input::-webkit-inner-spin-button {
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-	padding: 6px 73px 57px 73px;
+	padding: 0.5% 6.1% 4.8% 6.1%;
 }
 
 .field-group.infostruction {
@@ -931,10 +924,10 @@ input::-webkit-inner-spin-button {
 	    -ms-flex-align: center;
 	        align-items: center;
 	border-bottom: 1px solid #e5e5e5;
-	padding-left: 42px;
+	padding-left: 6%;
 	padding-top: 21px;
 	padding-bottom: 23px;
-	width: 1158px;
+	/*width: 1158px;*/
 	background-color: #ffffff;
 }
 
@@ -947,17 +940,18 @@ input::-webkit-inner-spin-button {
 	        justify-content: space-between;
 	margin: 0;
 	padding: 0;
-	padding-right: 11px;
-	margin-right: 453px;
-	width: 245px;
+	padding-right: 0.9%;
+	margin-right: 38%;
+	/*width: 245px;*/
 }
 
 .sort-arrow {
-	margin-right: 54px;
+	margin-right: 4.5%;
+	width: 36px;
 }
 
 .sort-arrow-up {
-	margin-right: 8px;
+	margin-right: 5px;
 	fill: #cacaca;
 }
 
@@ -989,8 +983,9 @@ input::-webkit-inner-spin-button {
 	    -ms-flex-align: center;
 	        align-items: center;
 	border-bottom: 1px solid #e5e5e5;
-	padding-left: 72px;
-	width: 1128px;
+	padding-left: 6%;
+	padding-right: 6%;
+	/*width: 1128px;*/
 	background-color: #ffffff;
 }
 
@@ -1003,7 +998,7 @@ input::-webkit-inner-spin-button {
 	    -ms-flex-direction: column;
 	        flex-direction: column;
 	margin-right: auto;
-	margin-left: 30px;
+	margin-left: 2.5%;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
@@ -1016,7 +1011,7 @@ input::-webkit-inner-spin-button {
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
 	font-weight: normal;
-	width: 180px;
+	/*width: 180px;*/
 	margin-top: -12px;
 }
 
@@ -1027,7 +1022,7 @@ input::-webkit-inner-spin-button {
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-	width: 258;
+	/*width: 258;*/
 }
 
 .hotel-grade {
@@ -1041,13 +1036,12 @@ input::-webkit-inner-spin-button {
 	-webkit-box-pack: end;
 	    -ms-flex-pack: end;
 	        justify-content: flex-end;
-	padding-right: 73px;
 	font-weight: normal;
 }
 
 .hotel-stars-1 {
 	display: inline-block;
-	margin-left: 28px;
+	margin-left: 2.3%;
 	margin-bottom: 48px;
 	height: 17px;
 	width: 87px;
@@ -1056,7 +1050,7 @@ input::-webkit-inner-spin-button {
 
 .hotel-stars-2 {
 	display: inline-block;
-	margin-left: 50px;
+	margin-left: 4.2%;
 	margin-bottom: 48px;
 	height: 17px;
 	width: 64px;
@@ -1065,7 +1059,7 @@ input::-webkit-inner-spin-button {
 
 .hotel-stars-3 {
 	display: inline-block;
-	margin-left: 73px;
+	margin-left: 6.1%;
 	margin-bottom: 48px;
 	height: 17px;
 	width: 41px;
@@ -1073,7 +1067,7 @@ input::-webkit-inner-spin-button {
 }
 
 .hotel-rating {
-	padding: 3px 16px;
+	padding: 3px 18px;
 }
 
 /*Оформление фильтра стоимости*/
