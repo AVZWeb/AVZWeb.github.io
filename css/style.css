@@ -609,6 +609,12 @@ img {
 	color: inherit;
 }
 
+.reason-picture {
+  background-image: url(img/reason-sedona-adp.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
 .reason-picture.secondary-img {
 	-webkit-box-ordinal-group: 0;
 	    -ms-flex-order: -1;
