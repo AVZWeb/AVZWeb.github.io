@@ -608,13 +608,13 @@ img {
 	padding-bottom: 40px;
 	color: inherit;
 }
-
+/*
 .reason-picture {
-  background-image: url(img/reason-sedona-adp.jpg);
+  background: url("../img/reason-sedona-adp.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;	
+	background-size: cover;
 }
-
+*/
 .reason-picture.secondary-img {
 	-webkit-box-ordinal-group: 0;
 	    -ms-flex-order: -1;
@@ -1051,7 +1051,7 @@ input::-webkit-inner-spin-button {
 	margin-bottom: 48px;
 	height: 17px;
 	width: 87px;
-	background: url("../img/star.svg") repeat;
+	background: url("img/star.svg") repeat;
 }
 
 .hotel-stars-2 {
@@ -1060,7 +1060,7 @@ input::-webkit-inner-spin-button {
 	margin-bottom: 48px;
 	height: 17px;
 	width: 64px;
-	background: url("../img/star.svg") repeat;
+	background: url("img/star.svg") repeat;
 }
 
 .hotel-stars-3 {
