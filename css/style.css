@@ -54,10 +54,10 @@ li {
 	 list-style-type: none;
 }
 
-img {
+/*img {
 	max-width: 100%;
 	height: auto;
-}
+}*/
 
 .main-nav a {
 	font-weight: bold;
@@ -1219,6 +1219,13 @@ input::-webkit-inner-spin-button {
 	background: url("../img/promo-adp.jpg");
 	background-repeat: no-repeat;
 	background-size: auto;
+	max-width: 100%;
+  height: auto;
+}
+
+.promo-block__triangle {
+	max-width: 100%;
+  height: auto;
 }
 
 .promo-block-title {
