@@ -2,10 +2,10 @@ body {
 	font-family: "PT Sans", "Arial", sans-serif;
 	font-weight: normal;
 	text-transform: uppercase;
+	min-width: 320px;
+  max-width: 1200px;
 	margin: 0;
-	margin: 0 3%;
-	min-width: 768px;
-	max-width: 1200px;
+	margin: 0 auto;
 	font-size: 0.9em;
 	line-height: 1.3em;
 	color: #333333;
@@ -54,11 +54,14 @@ li {
 	 list-style-type: none;
 }
 
-img {
-
+/*img {
 	max-width: 100%;
 	height: auto;
 }
+
+picture img {
+	max-width: 75%;
+}*/
 
 .main-nav a {
 	font-weight: bold;
@@ -77,6 +80,10 @@ img {
 
 .main-nav li.active a {
 	color: #766357;
+}
+
+.promo-block__triangle {
+	margin-bottom: -4px;
 }
 
 .promo-title {
@@ -106,7 +113,6 @@ img {
 }
 
 .reason-text {
-	padding-top: 5px;
 	line-height: 1.6em;
 	color: #ffffff;
 }
@@ -531,14 +537,13 @@ img {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	max-height: 256px;
 	/*width: 1200px;*/
 }
 
 .reason-about {
 	width: 33%;
-	padding-top: 25px;
-	padding-right: 45px;
-	padding-left: 45px;
+	padding: 42px 3.8%;
 	text-align: center;
 }
 
@@ -547,10 +552,9 @@ img {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-pack: distribute;
-	    justify-content: space-around;
+	    justify-content: space-between;
 	margin: 0;
 	padding: 0;
-	margin-bottom: -20px;
 	/*width: 1200px;*/
 	background-color: #ffffff;
 }
@@ -567,9 +571,10 @@ img {
 	    -ms-flex-direction: column;
 	        flex-direction: column;
 	text-align: center;
-	padding-left: 10px;
+	padding: 42px 3.8%;
+	/*padding-left: 10px;
 	padding-top: 60px;
-	padding-bottom: 87px;
+	padding-bottom: 87px;*/
 }
 
 .offers-food-img {
@@ -604,10 +609,10 @@ img {
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
+	justify-content: space-between;
 	text-align: center;
 	width: 33%;
-	padding-top: 25px;
-	padding-bottom: 40px;
+	padding: 42px 3.8%;
 	color: inherit;
 }
 
@@ -1229,6 +1234,7 @@ input::-webkit-inner-spin-button {
 }
 
 .promo-block-title.sedona {
+	letter-spacing: 2px;
 	padding-top: 15px;
 	padding-bottom: 63px;
 	font-size: 4.6em;
@@ -1236,12 +1242,16 @@ input::-webkit-inner-spin-button {
 }
 
 .promo-block-text {
+	font-family: 'Dancing Script', cursive, sans-serif;
 	text-transform:lowercase;
-	font-size: 1em;
+	font-size: 1.4em;
 	color: #766357;
 }
 
 .promo-block-text.second {
+	font-family: 'Dancing Script', cursive, sans-serif;
+	font-size: 3em;
+	line-height: 1.15;
 	padding-bottom: 34px;
 	text-transform: initial;
 	color: #ffffff;
