@@ -54,14 +54,10 @@ li {
 	 list-style-type: none;
 }
 
-/*img {
+img {
 	max-width: 100%;
 	height: auto;
 }
-
-picture img {
-	max-width: 75%;
-}*/
 
 .main-nav a {
 	font-weight: bold;
